@@ -1290,7 +1290,7 @@ void CraftingSessionImplementation::createPrototype(int clientCounter, bool crea
 
 		} else {
 			// This is for practicing
-			startCreationTasks(manufactureSchematic->getComplexity() * 2, true);
+			startCreationTasks(manufactureSchematic->getComplexity() * 0.1, true); // EisleyEmu: 10% of the complexity for practicing - faster finishing.
 			xp = round(xp * 3.0f); // EisleyEmu: 3x XP for crafting practicing.
 		}
 
