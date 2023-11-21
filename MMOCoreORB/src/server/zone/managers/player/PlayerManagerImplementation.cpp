@@ -2097,7 +2097,7 @@ void PlayerManagerImplementation::disseminateExperience(TangibleObject* destruct
 				if (xpType != "jedi_general")
 					combatXp += xpAmount;
 				else
-					xpAmount *= 0.2f;
+					xpAmount *= 0.4f; // EisleyEmu: Increased Jedi XP gain from 20% to 40%
 
 				if (xpType == "dotDMG") { // Prevents XP generated from DoTs from applying to the equiped weapon, but still counts towards combat XP
 					continue;

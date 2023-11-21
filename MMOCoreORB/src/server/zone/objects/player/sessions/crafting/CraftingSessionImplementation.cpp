@@ -1291,7 +1291,7 @@ void CraftingSessionImplementation::createPrototype(int clientCounter, bool crea
 		} else {
 			// This is for practicing
 			startCreationTasks(manufactureSchematic->getComplexity() * 2, true);
-			xp = round(xp * 1.05f);
+			xp = round(xp * 3.0f); // EisleyEmu: 3x XP for crafting practicing.
 		}
 
 		Reference<PlayerManager*> playerManager = crafter->getZoneServer()->getPlayerManager();

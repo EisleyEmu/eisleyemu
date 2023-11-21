@@ -56,9 +56,9 @@ Core3 = {
 	DBPort = 3306,
 	DBName = "swgemu",
 	DBUser = "swgemu",
-	DBPass = "123456",
+	DBPass = "Modocrozz777",
 	DBInstances = 2,
-	DBSecret = "swgemus3cr37!", -- Change this! This value should be unique and of reasonable length.
+	DBSecret = "3!sl3y3Mu", -- Change this! This value should be unique and of reasonable length.
 
 	LoginPort = 44453,
 	LoginProcessingThreads = 1,
@@ -69,7 +69,7 @@ Core3 = {
 	MantisPort = 3306,
 	MantisName = "swgemu",
 	MantisUser = "swgemu",
-	MantisPass = "123456",
+	MantisPass = "Modocrozz777",
 	MantisPrfx = "mantis_", -- The prefix for your mantis tables.
 
 	MetricsHost = "localhost",
@@ -96,20 +96,20 @@ Core3 = {
 	--"11",
 	--"character_farm",
 	--"cinco_city_test_m5",
-	--"corellia",
+	"corellia",
 	--"creature_test",
-	--"dantooine",
-	--"dathomir",
-	--"dungeon1",
-	--"endor",
+	"dantooine",
+	"dathomir",
+	"dungeon1",
+	"endor",
 	--"endor_asommers",
 	--"floratest",
 	--"godclient_test",
-	--"lok",
-	--"naboo",
-	--"otoh_gunga",
+	"lok",
+	"naboo",
+	"otoh_gunga",
 	--"rivertest",
-	--"rori",
+	"rori",
 	--"runtimerules",
 	--"simple",
 	--"space_09",
@@ -129,18 +129,18 @@ Core3 = {
 	--"space_tatooine_2",
 	--"space_yavin4",
 	--"taanab",
-	--"talus",
+	"talus",
 	"tatooine",
 	--"test_wearables",
 	"tutorial",
-	--"umbra",
+	"umbra",
 	--"watertabletest",
-	--"yavin4"
+	"yavin4"
 	},
 
 
 	-- Where tre files are stored
-	TrePath = "/home/swgemu/Desktop/SWGEmu",
+	TrePath = "/home/exile/tre",
 
 	-- Each tre file (order is important!)
 	TreFiles = {

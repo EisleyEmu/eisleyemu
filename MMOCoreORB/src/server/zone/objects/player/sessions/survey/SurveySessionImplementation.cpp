@@ -238,10 +238,14 @@ void SurveySessionImplementation::startSample(const String& resname) {
 			ghost->removeSuiBoxType(SuiWindowType::SURVEY_TOOL_CONCENTRATED_MINIGAME2);
 		}
 
+
+		// EisleyEmu: Removed surveying / sampling mini game.
+		/*
 		if (System::random(1) == 1)
 			surveyCnodeMinigameSui();
 		else
 			surveyGnodeMinigameSui();
+		*/
 
 	} else {
 
