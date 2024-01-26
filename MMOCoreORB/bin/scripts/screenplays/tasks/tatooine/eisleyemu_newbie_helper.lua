@@ -6,7 +6,7 @@ EisleyEmuNewbieHelper = ScreenPlay:new {
 registerScreenPlay("EisleyEmuNewbieHelper", true)
 function EisleyEmuNewbieHelper:start()     
     -- Spawn our character into the world, setting pNewbieHelper a pointer variable we can use to check or change his state.       
-    local pNewbieHelper = spawnMobile("tatooine", "eisleyemu_newbie_helper", 1, 3529, 5.0, 4811, 35, 0 )
+    local pNewbieHelper = spawnMobile("tatooine", "eisleyemu_newbie_helper", 1, 3529, 5, -4811, 35, 0 )
 end
 eisleyemu_newbie_helper_conversation_handler = Object:new {
     tstring = "myconversation" 
