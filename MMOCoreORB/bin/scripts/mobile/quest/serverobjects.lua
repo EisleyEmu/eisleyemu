@@ -870,3 +870,6 @@ includeFile("quest/yavin4/theme_park_rebel_big_creature_cage.lua")
 includeFile("quest/yavin4/theme_park_rebel_supervisor.lua")
 includeFile("quest/yavin4/vraker_orde.lua")
 includeFile("quest/yavin4/yith_seenath.lua")
+
+-- EisleyEmu Custom Stuff
+includeFile("quest/tatooine/eisleyemu_newbie_helper.lua")

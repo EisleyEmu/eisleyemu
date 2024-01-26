@@ -1,1 +1,0 @@
-includeFile("../custom_scripts/screenplays/newbie_helper.lua")
