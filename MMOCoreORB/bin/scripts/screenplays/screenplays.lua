@@ -722,4 +722,4 @@ includeFile("events/ServerEventAutomation.lua")
 includeFile("../custom_scripts/screenplays/screenplays.lua")
 
 -- EisleyEmu Custom Stuff
-includeFile("tasks/tatooine/eisleyemu_newbie_helper.lua")
+-- includeFile("tasks/tatooine/eisleyemu_newbie_helper.lua")
