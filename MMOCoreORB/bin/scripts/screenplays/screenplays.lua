@@ -720,3 +720,6 @@ includeFile("events/ServerEventAutomation.lua")
 
 -- Custom content - Loads last to allow for overrides
 includeFile("../custom_scripts/screenplays/screenplays.lua")
+
+-- EisleyEmu Custom Stuff
+-- includeFile("tasks/tatooine/eisleyemu_newbie_helper.lua")
